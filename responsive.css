@@ -1,0 +1,260 @@
+@media only screen and (max-width:768px){
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .nav a{
+      display: none;
+    }
+    
+    .section__item{
+        grid-template-columns: 1fr;
+    }
+    .modern__item h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .modern__item p{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .modern__item h2{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .modern__item button{
+        margin-left: 32%;
+     }
+    .about__item p{
+        width: 100%;
+    }
+    .work__item{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        margin-left: 20%;
+    }
+    .contact__item{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .contact__talk{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+    .contact__input{
+        width: 63%;
+        height: 100%;
+        border: 1px solid black;
+        margin-left: 0;
+        margin-top: 100px;
+        margin: 0 auto;
+    }
+    .contact__input input{
+        margin-left: 5%;
+        margin-top: 20px;
+       
+    }
+    .contact__input textarea{
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 220px;
+        padding-top: 10px;
+        padding-bottom: 60px;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .contact__input input[type="submit"]{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 35%;
+        margin-top: 50px;
+        background-color: #FFE25B;
+        color: white;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .making__item p{
+        font-size: 0.9rem;
+        padding-right: 70px;
+        margin-left: 30px;
+    }
+    .landing h2{
+        font-size: 2.5rem;
+    }
+    .landing h3{
+        font-size: 2rem;
+    }
+    .landing{
+        width: 100%;
+        height: 480px;
+        margin: 0 auto;
+        padding-top: 100px;
+        border-bottom: 1px solid #FFE25B;
+    }
+}
+@media only screen and (max-width: 368px){
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .nav a{
+      display: none;
+    }
+    .header{
+        width: 100%;
+    }
+    .section__item{
+        grid-template-columns: 1fr;
+    }
+    .modern__item h1{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .modern__item p{
+        width: 10rem;
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .work__bar h2{
+        font-size: 2.5rem;
+    }
+    .modern__item h2{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .modern__item button{
+        margin-left: 26%;
+     }
+    .about__item p{
+        width: 100%;
+    }
+    .work__img1{
+        margin-left: 0px;
+        margin-left: -40px;
+        width: 280px;
+    }
+    .work__img2{
+        margin-left: 0px;
+        margin-left: -40px;
+        width: 280px;
+    }
+    .work__img3{
+        margin-left: 0px;
+        margin-left: -40px;
+        width: 280px;
+    }
+    .best__img img{
+        width: 250px;
+        height: 250px;
+    }
+    .work__item{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        margin-left: 20%;
+    }
+    .contact__item{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .contact__talk{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+    .contact__input{
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        margin-left: 0;
+        margin-top: 100px;
+        margin: 0 auto;
+    }
+    .contact__input input{
+        margin-left: 5%;
+        margin-top: 20px;
+        width: 295px;
+    }
+    .contact__input textarea{
+        width: 295px;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 220px;
+        padding-top: 10px;
+        padding-bottom: 60px;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .contact__input input[type="submit"]{
+        width: 8rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 50px;
+        background-color: #FFE25B;
+        color: white;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .making__content{
+        width: 100%;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .making__item p{
+        font-size: .9rem;
+        padding-right: 70px;
+        margin-left: 90px;
+    }
+    .landing h2{
+        font-size: 2rem;
+    }
+    .landing h3{
+        font-size: 1.6rem;
+    }
+    .landing{
+        width: 100%;
+        height: 480px;
+        margin: 0 auto;
+        padding-top: 100px;
+        border-bottom: 1px solid #FFE25B;
+    }
+    .landing button{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 30px;
+        font-size: 1rem;
+        color: white;
+        background-color: #ffd51b;
+        margin-left: 22%;
+        margin-top: 40px;
+    }
+    .footer__item p{
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 15px;
+    }
+    .footer__item span{
+        color: #ffd51b;
+        font-family: Ubuntu;
+    }
+}
